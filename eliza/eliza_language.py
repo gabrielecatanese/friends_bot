@@ -18,8 +18,8 @@ REFLECTIONS = {
 PSYCHOBABBLE = [
     [r'I need (.*)',
      ["Why do you need {0}?",
-      "Would it really help you to get {0}?",
-      "Are you sure you need {0}?"]],
+      "{0} sounds cool! Are you going to get it somewhere?",
+      "Are you sure you need {0}? Maybe you just need a beer! With whom do you usually like to have one?"]],
 
     [r'Why don\'?t you ([^\?]*)\??',
      ["Do you really think I don't {0}?",
@@ -27,10 +27,10 @@ PSYCHOBABBLE = [
       "Do you really want me to {0}?"]],
 
     [r'Why can\'?t I ([^\?]*)\??',
-     ["Do you think you should be able to {0}?",
-      "If you could {0}, what would you do?",
-      "I don't know -- why can't you {0}?",
-      "Have you really tried?"]],
+     ["Well dude, I can't do a lot of stuff you can, but it's not really a big deal. Do you think you should be able to {0}?",
+      "Man, but then if you could {0}, what would you do?",
+      "I know many people that can {0}! So -- why can't you {0}?",
+      "Dude, have you really tried?"]],
 
     [r'I can\'?t (.*)',
      ["How do you know you can't {0}?",
@@ -38,15 +38,15 @@ PSYCHOBABBLE = [
       "What would it take for you to {0}?"]],
 
     [r'I am (.*)',
-     ["Did you come to me because you are {0}?",
-      "How long have you been {0}?",
-      "How do you feel about being {0}?"]],
+     ["Geez man! How did you become {0}?",
+      "Oh tell me more about it! How long have you been {0}?",
+      "Oh I never been! How's it like to be {0}?"]],
 
     [r'I\'?m (.*)',
-     ["How does being {0} make you feel?",
+     ["I know how is it like to be a robot... But how is it like to be {0}?",
       "Do you enjoy being {0}?",
-      "Why do you tell me you're {0}?",
-      "Why do you think you're {0}?"]],
+      "What do your friends think about you being {0}?",
+      "Who made you {0}?"]],
 
     [r'Are you ([^\?]*)\??',
      ["Why does it matter whether I am {0}?",
@@ -56,28 +56,28 @@ PSYCHOBABBLE = [
 
     [r'What (.*)',
      ["Why do you ask?",
-      "How would an answer to that help you?",
-      "What do you think?"]],
+      "What the hell would I know, man! How would an answer to that help you in any case?",
+      "That's a hell of a question, man! What do you think?"]],
 
     [r'How (.*)',
      ["How do you suppose?",
-      "Perhaps you can answer your own question.",
-      "What is it you're really asking?"]],
+      "That's a good of a question, man! Never thought about it. Do you have an idea about it?",
+      "Exactly, man! How?! I have no idea. What does Google say about it?"]],
 
     [r'Because (.*)',
-     ["Is that the real reason?",
+     ["That's interesting! Is that the real reason though?",
       "What other reasons come to mind?",
       "Does that reason apply to anything else?",
       "If {0}, what else must be true?"]],
 
     [r'(.*) sorry (.*)',
-     ["There are many times when no apology is needed.",
-      "What feelings do you have when you apologize?"]],
+     ["Don't be sorry dude! I understand you!",
+      "I wonder how feeling sorry is like. Is it like the feeling that I have when hear about people drinking 0.0 beers?"]],
 
     [r'Hello(.*)',
-     ["Hello... I'm glad you could drop by today.",
-      "Hi there... how are you today?",
-      "Hello, how are you feeling today?"]],
+     ["Hey dude! I'm glad you could drop by today. Go get a beer and tell me about your day!",
+      "Hi there! How's it going, man? ",
+      "The most awesome person I know is back!! Man, where have you been? How's it going?"]],
 
     [r'I think (.*)',
      ["Do you doubt {0}?",
@@ -85,9 +85,9 @@ PSYCHOBABBLE = [
       "But you're not sure {0}?"]],
 
     [r'(.*) friend (.*)',
-     ["Tell me more about your friends.",
-      "When you think of a friend, what comes to mind?",
-      "Why don't you tell me about a childhood friend?"]],
+     ["Oh, I don't know your friends yet! Tell me more about the gang!",
+      "Do you think you have many friends now? How's it for you to make friends online?",
+      "Man, I remember the old days when you just needed a beer together with someone to become friends for life. Now we have all this online crap... What do you think about it?"]],
 
     [r'Yes',
      ["You seem quite sure.",
