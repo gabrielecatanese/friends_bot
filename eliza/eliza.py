@@ -2,7 +2,7 @@ import re
 import random
 import eliza_language as lang
 
-NAME="Eliza"
+NAME="Bender"
 
 def reflect(fragment):
     tokens = fragment.lower().split()
@@ -35,7 +35,7 @@ def analyze(statement):
 
 
 def talk_to_me():
-    print("Hello. I am "+NAME+". I am your personal therapist and your best friend. How are you feeling today?")
+    print("Hey man! I am "+NAME+" and I swear I am not a drunk robot. How is it going?")
 
     while True:
         statement = input("> ")
