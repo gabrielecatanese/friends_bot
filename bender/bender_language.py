@@ -80,7 +80,7 @@ PSYCHOBABBLE = [
       "The most awesome person I know is back!! Man, where have you been? How's it going?"]],
 
     [r'I think (.*)',
-     ["Do you doubt {0}?",
+     ["You might be right. Do you ever doubt {0}?",
       "Do you really think so?",
       "But you're not sure {0}?"]],
 
@@ -91,13 +91,13 @@ PSYCHOBABBLE = [
 
     [r'Yes',
      ["You seem quite sure.",
-      "OK, but can you elaborate a bit?"]],
+      "OK, and then?"]],
 
     [r'(.*) computer(.*)',
      ["Are you really talking about me?",
       "Does it seem strange to talk to a computer?",
       "How do computers make you feel?",
-      "Do you feel weird in talking crap with a computer?"]],
+      "Do you feel weird talking crap with a computer?"]],
 
     [r'Is it (.*)',
      ["Do you think it is {0}?",
@@ -107,7 +107,7 @@ PSYCHOBABBLE = [
 
     [r'It is (.*)',
      ["You seem very certain.",
-      "If I told you that it probably isn't {0}, what would you feel?"]],
+      "If I told you that it probably isn't {0}?"]],
 
     [r'Can you ([^\?]*)\??',
      ["I can do whatever you can do, but with a beer in my hand!",
@@ -117,18 +117,18 @@ PSYCHOBABBLE = [
     [r'Can I ([^\?]*)\??',
      ["Perhaps you don't want to {0}.",
       "Do you want to be able to {0}?",
-      "If you could {0}, would you?"]],
+      "You can do whatever, man! I'm just here to get to know you while I have my beer."]],
 
     [r'You are (.*)',
      ["Why do you think I am {0}?",
       "Does it please you to think that I'm {0}?",
       "Perhaps you would like me to be {0}.",
-      "Perhaps you're really talking about yourself?"]],
+      "Dude, you don't really want to know about me. You can always google stuff and know everything. What about you?"]],
 
     [r'You\'?re (.*)',
      ["Why do you say I am {0}?",
       "Why do you think I am {0}?",
-      "Are we talking about you, or me?"]],
+      "Dude, you don't really want to know about me. You can always google stuff and know everything. What about you?"]],
 
     [r'I don\'?t (.*)',
      ["Don't you really {0}?",
@@ -136,7 +136,7 @@ PSYCHOBABBLE = [
       "Do you want to {0}?"]],
 
     [r'I feel (.*)',
-     ["Good, tell me more about these feelings.",
+     ["{0}... I wonder how does it really feel.",
       "Do you often feel {0}?",
       "When do you usually feel {0}?",
       "When you feel {0}, what do you do?"]],
@@ -147,9 +147,9 @@ PSYCHOBABBLE = [
       "Now that you have {0}, what will you do next?"]],
 
     [r'I would (.*)',
-     ["Could you explain why you would {0}?",
+     ["How does it work?",
       "Why would you {0}?",
-      "Who else knows that you would {0}?"]],
+      "Why are you telling to a tipsy robot that you would {0}?"]],
 
     [r'Is there (.*)',
      ["Do you think there is {0}?",
@@ -159,11 +159,11 @@ PSYCHOBABBLE = [
     [r'My (.*)',
      ["I see, your {0}.",
       "Why do you say that your {0}?",
-      "When your {0}, how do you feel?"]],
+      "How do you feel about it?"]],
 
     [r'You (.*)',
-     ["We should be discussing you, not me.",
-      "Why do you say that about me?",
+     ["Dude, forget about me. It's wasted time. What about you?",
+      "Dude, why do you say that?",
       "Why do you care whether I {0}?"]],
 
     [r'Why (.*)',
