@@ -1,6 +1,6 @@
 import re
 import random
-import eliza_language as lang
+import bender_language as lang
 
 NAME="Bender"
 
