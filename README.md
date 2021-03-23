@@ -46,6 +46,7 @@ If you want to avoid the training step, you can directly download the trained ag
 * **Monica** = https://vu.data.surfsara.nl/index.php/s/XaEvDztdENFlXW9
 * **Joey** = https://vu.data.surfsara.nl/index.php/s/v2gcJ46bYUSl7iP
 * **Chandler** = https://vu.data.surfsara.nl/index.php/s/FbW9WqpYDeRwJC3
+**Don't forget to locate those files in the same folder with the .py files.**
 
 ## References
 The code used for training was inspired by this [colab](https://colab.research.google.com/drive/15wa925dj7jvdvrz8_z3vU7btqAFQLVlG#scrollTo=78afhsngLZMw).
