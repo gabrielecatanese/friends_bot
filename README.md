@@ -35,6 +35,9 @@ These are the required Python 3.8 packages for running the scripts contained in 
 
 ## Trained Agents
 Running the training script is costly in terms of time and computational power. Our training time was around 8h for each run with the following setup: 
+processing power: cori7, 4.2GHz
+RAM: ~100GB
+Video card: GTx 1070, 8GB.
 \
 If you want to avoid the training step, you can directly download the trained agents from the links below (2.58GB total):
 * **Ross** = https://vu.data.surfsara.nl/index.php/s/Q9MdptUcIICmy0M
