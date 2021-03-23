@@ -1,7 +1,7 @@
 # The FriendsBot Project
 This repository contains the code and data used for Empathic Robot Project for the VU Amsterdam course **Text Mining Domains**.
 
-The project consisted in training 6 different conversational agents provided with human-like personality traits. By finetuning the [DialoGPT}(https://github.com/microsoft/DialoGPT) coversational model over the personality charged dialog scripts of the TV series '*Friends*', we obtained an agent for each of the main characters of the show.
+The project consisted in training 6 different conversational agents provided with human-like personality traits. By finetuning the [DialoGPT](https://github.com/microsoft/DialoGPT) coversational model over the personality charged dialog scripts of the TV series '*Friends*', we obtained an agent for each of the main characters of the show.
 
 The contributors to this project are Wael Al-Masri, Gabriele Catanese and Breta Micha.
 The project was supervised by Professor Piek Vossen.
