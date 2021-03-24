@@ -7,14 +7,14 @@ The contributors to this project are Wael Al-Masri, Gabriele Catanese and Breta 
 The project was supervised by Professor Piek Vossen.
 
 ## Folders
-### friends_bot/project
+### friends_bot
 This folder contains the scripts and data used for training our conversational agents.
 
 * `arguments.py` this script defines the argument class that is imported for the training.
 * `train.py` this script trains and pickles a conversational agent for each of the main characters of '*Friends*'
 * `run.py` this script runs the guessing game that was used for testing the agents. It makes the user have a 10 lines conversation with each of the characters by randomly selecting them.
 
-### friends_bot/project/MELD
+### friends_bot/MELD
 this folder contains the '*Friends*' [MELD dataset](https://github.com/declare-lab/MELD) used for training the agents. It is splitted in training, development and test sets.
 
 ## Requirements
