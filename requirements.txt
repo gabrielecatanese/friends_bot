@@ -1,0 +1,7 @@
+numpy==1.18.5
+transformers==4.3.3
+tqdm==4.58.0
+torch==1.7.1+cpu
+pandas==1.2.1
+apex==0.9.10dev
+tensorboardX==2.1
