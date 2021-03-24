@@ -47,7 +47,7 @@ If you want to avoid the training step, you can directly download the trained ag
 * **Joey** = https://vu.data.surfsara.nl/index.php/s/v2gcJ46bYUSl7iP
 * **Chandler** = https://vu.data.surfsara.nl/index.php/s/FbW9WqpYDeRwJC3
 
-**These files should be located in in the project folder with the .py files.**
+**These files should be located in the `project` folder with the .py files.**
 
 ## References
 The code used for training was inspired by this [colab](https://colab.research.google.com/drive/15wa925dj7jvdvrz8_z3vU7btqAFQLVlG#scrollTo=78afhsngLZMw).
