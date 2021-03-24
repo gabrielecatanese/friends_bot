@@ -18,7 +18,7 @@ This folder contains the scripts and data used for training our conversational a
 this folder contains the '*Friends*' [MELD dataset](https://github.com/declare-lab/MELD) used for training the agents. It is splitted in training, development and test sets.
 
 ## Requirements
-The required Python 3.8 packages for running the scripts contained in this repository can be found in the `requirement` file and installed directly through pip.
+The required Python 3.8 packages for running the scripts contained in this repository can be found in the `requirements` file and installed directly through pip.
 
 ## Trained Agents
 Running the training script is costly in terms of time and computational power. Our training time was around 8h for each run with the following setup:  
