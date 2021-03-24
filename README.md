@@ -34,11 +34,11 @@ These are the required Python 3.8 packages for running the scripts contained in 
 * tensorboardX 
 
 ## Trained Agents
-Running the training script is costly in terms of time and computational power. Our training time was around 8h for each run with the following setup: 
-Processor: core i7, 4.1GHz.
-RAM: ~100GB.
-Video card: GTx 1070, 8GB.
-\
+Running the training script is costly in terms of time and computational power. Our training time was around 8h for each run with the following setup:\
+* Processor: core i7, 4.1GHz.
+* RAM: ~100GB.
+* Video card: GTx 1070, 8GB.\
+
 If you want to avoid the training step, you can directly download the trained agents from the links below (2.58GB total):
 * **Ross** = https://vu.data.surfsara.nl/index.php/s/Q9MdptUcIICmy0M
 * **Rachel** = https://vu.data.surfsara.nl/index.php/s/1NldXCnoT3aSpcA
@@ -47,7 +47,7 @@ If you want to avoid the training step, you can directly download the trained ag
 * **Joey** = https://vu.data.surfsara.nl/index.php/s/v2gcJ46bYUSl7iP
 * **Chandler** = https://vu.data.surfsara.nl/index.php/s/FbW9WqpYDeRwJC3
 
-**Don't forget to locate those files in the same folder with the .py files.**
+**These files should be located in in the project folder with the .py files.**
 
 ## References
 The code used for training was inspired by this [colab](https://colab.research.google.com/drive/15wa925dj7jvdvrz8_z3vU7btqAFQLVlG#scrollTo=78afhsngLZMw).
