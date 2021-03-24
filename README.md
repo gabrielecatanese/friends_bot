@@ -34,10 +34,10 @@ These are the required Python 3.8 packages for running the scripts contained in 
 * tensorboardX 
 
 ## Trained Agents
-Running the training script is costly in terms of time and computational power. Our training time was around 8h for each run with the following setup:\
+Running the training script is costly in terms of time and computational power. Our training time was around 8h for each run with the following setup:  
 * Processor: core i7, 4.1GHz.
 * RAM: ~100GB.
-* Video card: GTx 1070, 8GB.\
+* Video card: GTx 1070, 8GB.  
 
 If you want to avoid the training step, you can directly download the trained agents from the links below (2.58GB total):
 * **Ross** = https://vu.data.surfsara.nl/index.php/s/Q9MdptUcIICmy0M
